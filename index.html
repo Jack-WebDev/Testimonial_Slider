@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="SCSS/coding.css">
+  <script src="scripts.js" defer></script>
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+</head>
+<body>
+  <section aria-label="Home">
+    <div class="carousel" data-carousel>
+        <div class="btns">
+            <button class="carousel-button prev" data-carousel-button="prev"><img src="/images/icon-prev.svg" alt="icon-prev"></button>
+            <button class="carousel-button next" data-carousel-button="next"><img src="/images/icon-next.svg" alt="icon-next"></button>
+        </div>
+
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="images/image-tanya.jpg" alt="image-tanya" id="tanya_image">
+
+          <div class="content_tanya">
+            <p>
+              “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”
+            </p>
+      
+            <p class="name_title">Tanya Sinclair <span>UX Engineer</span></p>
+          </div>
+        </li>
+
+        <li class="slide">
+          <img src="images/image-john.jpg" alt="image-john" id="john_image">
+
+          <div class="content_john">
+            <p>
+              “ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”
+            </p>
+      
+            <p class="name_title">John Tarkpor <span>Junior Front-end Developer</span></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <img src="images/pattern-curve.svg" alt="pattern-curve" class="curve">
+  </section>
+</body>
+</html>
